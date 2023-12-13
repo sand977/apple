@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    
+    color: white;
+}
+
+ .menu ul li{
+    display: inline-block;
+    padding: 20px;
+
+} 
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.search > span{
+    padding: 20px;
+}
+
+.banner{
+    background-color: black;
+    color: white;
+}
+.banner  button{
+    padding: 5px 28px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.banner h3{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%; 
+}
+.categories .miband .row{
+    background: #FCF6EA;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.categories .bandimg{
+    background-image: url(./mi-band-6-removebg-preview\ 1.png);
+    width: 340px;
+height: 225.225px;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+display: grid;
+place-content: center;
+place-items: center;
+}
+.noise .explore > button{
+    padding: 7px 20px;
+    border: none;
+    background-color: #e89f71;
+    color: white;
+}
+.noise .noiseimg{
+    background-image: url(./Rectangle\ 27.png);
+    width: 262.286px;
+    height: 240px;
+    display: grid;
+    place-content: center;
+
+}
+.noise .star{
+    background-image: url(./Group\ 7389.png);
+    width: 89.603px;
+    height: 14px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+
+}
+
+.noise{
+    background: #FCF8F3;
+    padding: 30px;
+}   
+.deals .macbook{
+    background: url(./image\ 10975.png);
+    height: 306px;
+    width: 306px;
+}
+.deals .trimmer{
+    background: url(./Rectangle\ 10087.png);
+    height: 306px;
+    width: 306px;
+}
+.progress-bar{
+    background-color: #68d237;
+}
+.deals .time, .day{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.deals .deal{
+padding: 30px;
+}
+.deals .cart{
+display: grid;
+place-content: center;
+}
+.deals button{
+padding: 0.3em 5.3em;
+border: none;
+background-color: #68d237;
+border-radius: 9px;
+}
+.deals button a{
+text-decoration: none;
+color: white;
+}
+.deals .add{
+display: grid;
+place-content: center;
+}
+.access {
+margin-bottom: 7rem;
+}
+.access .box{
+position: relative;
+}
+.access .box::before{
+content: "";
+position: absolute;
+height: 1px;
+width: 12em;
+background-color: grey;
+left: 6.5em;
+top: 0.6em;
+
+} 
+.access .box::after{
+content: "";
+position: absolute;
+height: 1px;
+width: 12em;
+right: 5.7em;
+top: 0.6em;
+background-color: grey;
+} 
+.access .speaker{
+background-image: url(./Rectangle\ 10081.png);
+width: 416px;
+height: 584px;
+}
+.access .content h4{
+color: white;
+text-align: center;
+padding: 30px 0px 0px 0px;
+font-size: 28px;
+}
+.access .content h4 > span{
+font-size: 32px;
+}
+
+.access .realme{
+background-image: url(./image\ 32.png);
+width: 200px;
+height: 200px;
+
+}
+.access .mispeaker{
+background-image: url(./image\ 35.png);
+width: 200px;
+height: 200px;
+}
+.access .headphone{
+background-image: url(./image\ 33.png);
+width: 200px;
+height: 200px;
+}
+.access .whites{
+background-image: url(./image\ 34.png);
+width: 200px;
+ height: 200px;
+}
+.customer .container{
+background-color: #ffefeb;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 4em;
+border-radius: 8px;
+margin-top: 5em;
+}
+.customer .row{
+position: relative;
+}
+.customer .karl{
+position: absolute;
+left: 18em;
+top: -7.5em;
+}
+.customer p{
+color: var(--light-text-color-body-1, #515151);
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+width: 45vw;
+
+}
+@media all and (max-width: 412px){
+.customer .row{
+position: relative;
+}
+.customer .karl{
+position: absolute;
+left: 4em;
+top: -7.5em;
+}
+
+}
+
+
